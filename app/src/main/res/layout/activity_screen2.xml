@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_bright"
+    tools:context=".Screen2">
+
+        <Button
+            android:id="@+id/RadioGroups"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioGroups"/>
+        <Button
+            android:id="@+id/RadioButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radio Buttons"/>
+        <Button
+            android:id="@+id/URLDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="URL Demo"/>
+        <Button
+            android:id="@+id/overlap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Overlap Buttons"/>
+        <Button
+            android:id="@+id/URL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="URL Demo"/>
+        <Button
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scroll View"/>
+</LinearLayout>
